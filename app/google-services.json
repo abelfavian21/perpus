@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "439227857159",
+    "firebase_url": "https://pilketos24-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pilketos24",
+    "storage_bucket": "pilketos24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439227857159:android:4fa968111b50ba8ae7eda2",
+        "android_client_info": {
+          "package_name": "com.abelfavian.perpus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEmeUg3Iley-8AbWBZ0-HZ9xmp1k8xnIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439227857159:android:a4a18bc4b6bc8819e7eda2",
+        "android_client_info": {
+          "package_name": "com.abelfavian.pilketos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEmeUg3Iley-8AbWBZ0-HZ9xmp1k8xnIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

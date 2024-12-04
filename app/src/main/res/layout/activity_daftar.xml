@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="-137dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar agar dapat mengakses buku"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginStart="17dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="9dp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_height="wrap_content"
+            android:hint="Nama Pengguna" />
+
+        <EditText
+            android:id="@+id/TextEmail"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+             />
+        <EditText
+            android:id="@+id/TextPassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:hint="Kata Sandi"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/Cpassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/daftar"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="#1882FC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar" />
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun? Login di sini"
+            style="@style/text"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_marginTop="20dp"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+    </LinearLayout>
+</ScrollView>
